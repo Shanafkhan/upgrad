@@ -4,6 +4,17 @@
 <head>
     <!-- TODO: Include Font Awesome file here -->
     <!-- TODO: Include Google Fonts file here -->
+
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet"/>
+    
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap"  rel="stylesheet"/>
+    
+    <!-- Include Font Awesome file here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+    <!-- TODO: Include Google Fonts file here -->
+    <link rel="stylesheet" href="./styles/common.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
 </head>
 
 <body>
@@ -16,6 +27,26 @@
         <div id="button-wrapper">
             <button id="signUp">Sign Up</button>
             <button id="signIn">Sign In</button>
+        </div>
+
+        <!-- The Sign up model -->
+        <div id="model-signUp" class="model">
+            <div class="model-content">
+                <div class="model-header">
+                    <span class="close-icon" id="closeSignUp">
+                        <i class="fa fa-times fa-lg" aria-hidden="true"></i>
+                    </span>
+                    <h2 class="model-heading">Get Started</h2>
+                </div>
+                <div class="model-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your Name " required>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 </body>
